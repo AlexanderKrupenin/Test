@@ -1,0 +1,223 @@
+@import "http://fonts.fontstorage.com/import/ruslan.css";
+@import "http://fonts.fontstorage.com/import/beermoney.css";
+@import "http://fonts.fontstorage.com/import/alexander.css";
+@import "http://fonts.fontstorage.com/import/barkentina.css";
+@import "http://fonts.fontstorage.com/import/berniershade.css";
+@import "http://fonts.fontstorage.com/import/ptserif.css";
+@import "http://fonts.fontstorage.com/import/montserratalternates.css";
+@import "http://fonts.fontstorage.com/import/cleanvertising.css";
+@import "http://fonts.fontstorage.com/import/ubuntu.css";
+@import "http://fonts.fontstorage.com/import/casper.css";
+@import "http://fonts.fontstorage.com/import/cousine.css";
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Devonshire');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.head_title{
+    position: fixed;
+    z-index: 1000;
+}
+
+.background1{
+    background-image: url(img/back1.jpg), url(img/back1.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    width: 100%;
+    height: 75%;
+}
+
+.background2{
+    background-image: url(img/back2.jpg), url(img/back2.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    width: 100%;
+    height: 75%;
+}
+
+.background3{
+    background-image: url(img/back3.jpg), url(img/back3.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    width: 100%;
+    height: 75%;
+}
+
+.background4{
+    background-image: url(img/back4.jpg), url(img/back4.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    width: 100%;
+    height: 75%;
+}
+
+.background5{
+    background-image: url(img/back5.jpg), url(img/back5.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    width: 100%;
+    height: 75%;
+}
+
+
+.background6{
+    background-image: url(img/back6.jpg), url(img/back6.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+    width: 100%;
+    height: 75%;
+}
+
+.text{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 15%;
+}
+
+.text_up{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    
+    width: 20%;
+    height: 15%;
+    background: rgb(39, 39, 39);
+    
+}
+
+.text_up1{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    
+    width: 20%;
+    height: 15%;
+    background: rgb(39, 39, 39);
+    
+}
+
+.text_between{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(39, 39, 39);
+    
+    width: 20%;
+    height: 15%;
+    background: rgb(255, 255, 255);
+    
+}
+
+.text_between_small{
+    position: absolute;
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    word-spacing: 8px;
+    padding: 10px;
+    color: rgb(39, 39, 39);
+    
+    width: 20%;
+    height: 15%;
+    background: rgb(255, 255, 255);
+    
+}
+
+.blackout{
+    width: 40%;
+    height: 75%;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 0.5px rgba(0,0,0,0.5);
+    opacity: 0.65;
+}
+
+.h1{
+    font-family: Comfortaa;
+    font-weight: none;
+    text-align: center;
+    text-decoration: none;
+    left: 35%;
+    top: 1%;
+    font-size: 39px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
+.top_line{
+    left: 0%;
+    height: 0%;
+    background: rgb(39, 39, 39);
+
+    transform: skew(0deg);
+}
+
+.top_line1{
+    left: 0%;
+    height: 0%;
+    background: rgb(39, 39, 39);
+    
+    transform: skew(0deg);
+}
+
+.button_main {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comfortaa;
+    text-decoration: none;
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 20px;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    background-color:rgb(39, 39, 39);
+    padding: 4px 30px;
+  }
+  
+  .button_main:hover {
+    color:rgb(39, 39, 39);
+    background-color: white;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+  }
+  
+  label {
+    width: 120px;
+    display: inline-block;
+    vertical-align: top;
+    
+  }
