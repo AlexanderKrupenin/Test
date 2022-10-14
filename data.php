@@ -22,6 +22,12 @@
 'radio-test' => ['radio-test',
   'required' => 1,
 ],
+'radio-test' => ['radio-test',
+  'required' => 1,
+],
+'file1' => ['file1',
+  'required' => 1,
+],
   ]
   
  ?>

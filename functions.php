@@ -20,13 +20,6 @@
     }
     return $errors;
   }
-  function test($data){
-
-		          if (!empty($_POST['radio-test']) and $_POST['radio-test'] === '1') { 
-                echo 'checked';
-              }
-          
-  }
  ?>
 
  
