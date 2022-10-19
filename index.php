@@ -17,10 +17,11 @@
 
   <body>
     <header>
-  
+    <div class = "top_line head_title"  style= "position: fixed; left: 0%;top:0%; width: 100%; height: 20%;"> </div>
+      <h1 class = "text_up head_title" style= "position: fixed; left: 25%;top:1%; width: 45%;height: 5%;">Отдых на природе</h1>
     </header>
     <main> 
-     
+    <div class = "background2" style = "position: absolute; left: 0%;top: 20%; height: 110%;"></div>
       <div class = "blackout" style = "position: absolute; left: 30%;top:25%; height: 80%;"></div>
       <form  action = "home.php" method = "POST" class = "text" style = "position: absolute; left: 40%;top:25%; width: 45%;">    
             <label for = "last_name">Фамилия <br><br><em></em></label>
@@ -71,7 +72,7 @@
     </main>
     <footer>
     <div class = "top_line" style = "position: absolute; left: 0%;top:110%; width: 100%; height: 50%;"> </div>
-        <div class = "text" style = "position: absolute; left: 35%;top:115%; width: 40%; height: 10%;"><?php echo($errors); ?></div>
+        <div class = "text" style = "position: absolute; left: 35%;top:115%; width: 40%; height: 10%;"><?php ; ?></div>
       <div class = "text" style = "position: absolute; left: 35%;top:115%; width: 40%; height: 10%;"><?php ?> </div>
     </footer>
   </body>

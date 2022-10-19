@@ -20,9 +20,9 @@
       <h1 class = "text_up head_title" style= "position: fixed; left: 25%;top:1%; width: 45%;height: 5%;">Отдых на природе</h1>
     </header>
     <main> 
-    
+    <div class = "background1" style = "position: absolute; left: 0%;top: 20%; height: 110%;"></div>
       <div class = "blackout" style = "position: absolute; left: 30%;top:25%; height: 80%;"></div>
-      <form action = "index.php" method = "POST" enctype = "multipart/form-data" class = "text" style = "position: absolute; left: 40%;top:25%; width: 45%;"> 
+      <form action = "index.php" method = "POST" class = "text" style = "position: absolute; left: 40%;top:25%; width: 45%;"> 
             <label for = "last_name" >Фамилия <br><br><em></em></label>
             <input id = "last_name" name = "last_name" value="<?=isset($_POST['last_name'])?$_POST['last_name']:''?>" ><br>      
             <label for = "first_name" >Имя <br><br><em></em></label>
@@ -51,7 +51,8 @@
       </form>
     </main>
     <footer>
-     
+    <div class = "top_line" style = "position: absolute; left: 0%;top:110%; width: 100%; height: 50%;"> </div>
+     <div class = "text" style = "position: absolute;color: white; left: 35%;top:115%; width: 40%; height: 10%;"><?php if (isset($_POST['file1']) & $_POST['file1'] != '') echo 'Вы приложили следующий файл: '.$_POST['file1']; ?> </div>
     </footer>
   </body>
   </html>
